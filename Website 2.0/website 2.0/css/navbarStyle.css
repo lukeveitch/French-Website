@@ -1,0 +1,28 @@
+#navbar 
+    {
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      width: 100%;
+      
+    }
+    .nav-links 
+    {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .nav-links li{
+        display: inline;
+        margin-right: 40px;
+
+    }
+    
+        #logo 
+    {
+        margin:0.75%;
+        padding: 15px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 80%;
+    }   

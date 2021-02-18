@@ -1,0 +1,133 @@
+*  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bookman Old Style', Helvetica, sans-serif;
+}
+
+/* ==================
+KEY:
+
+   1.Navigation bar
+        - Responsive navbar
+   2.Homepage
+        - Background Image
+        - Text
+        - Profitez-en button
+   3. Resource links
+
+
+   ==================*/
+
+
+
+/* ==================
+   1. Navigation bar
+   ==================*/
+
+#navbar{
+display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    #navbar 
+    {
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      width: 100%;
+      
+    }
+    .nav-links 
+    {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    .nav-links li{
+        display: inline;
+        margin-right: 40px;
+
+    }
+    
+        #logo 
+    {
+        margin:0.75%;
+        padding: 15px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 80%;
+    }   
+}
+
+
+/* ==================
+   2. Homepage
+   ==================*/
+
+
+
+   /* Background image */
+#landing {
+    height: 100vh;
+    text-align: center;
+    background: url("../images/backgroundMobile.jpg");
+    background-position: center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+    /* Text */
+.big-text{
+    padding: 40px 50px 10px;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.under-text{
+    text-align:justify;
+    padding: 13px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Profitez-en button */
+.enjoy{
+    color: rgb(56, 23, 56);
+    font-weight: 550;
+    justify-items: center;
+    display:inline-block;
+    position: relative;
+    top: 15px;
+    padding: 7px;
+    border-radius:0.5em;
+    text-decoration:none;
+    border: 0.02em solid #000000;
+}
+
+.enjoy:hover{
+    color:#FFFFFF;
+    background:#000000;
+}
+
+/* ==================
+   3. Resource links
+   ==================*/
+.bar {
+    padding: 10%;
+    text-align: center;
+    background-image: linear-gradient(rgb(199, 190, 238), rgb(74, 76, 187), rgb(137, 137, 224) );
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.pageLinks {
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+}
+
+
